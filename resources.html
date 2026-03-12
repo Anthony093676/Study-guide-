@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Corner - Study Tips</title>
+    <title>Student Corner - Resources</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,18 +12,18 @@
     <h1>Student Corner</h1>
     <nav>
         <a href="index.html">Home</a>
-        <a href="study-tips.html">Study Tips</a>
+        <a href="study-guide.html">Study Tips</a>
         <a href="resources.html">Resources</a>
     </nav>
 </header>
 
 <main>
-    <h2>Study Tips</h2>
+    <h2>Resources</h2>
     <ul>
-        <li>Take short, regular breaks while studying.</li>
-        <li>Create a distraction-free study area.</li>
-        <li>Use active recall and summarization techniques.</li>
-        <li>Set realistic goals for each session.</li>
+        <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a></li>
+        <li><a href="https://www.coursera.org" target="_blank">Coursera</a></li>
+        <li><a href="https://www.edx.org" target="_blank">edX</a></li>
+        <li><a href="https://www.openstax.org" target="_blank">OpenStax Textbooks</a></li>
     </ul>
 </main>
 
@@ -31,11 +31,21 @@
     <p>&copy; 2026 Student Corner. All rights reserved.</p>
     <p>
         <a href="index.html">Home</a> |
-        <a href="study-tips.html">Study Tips</a> |
+        <a href="study-guide.html">Study Tips</a> |
         <a href="resources.html">Resources</a>
     </p>
     <p>Contact: <a href="mailto:studentcorner@example.com">studentcorner@example.com</a></p>
 </footer>
+
+
+<script>
+    let userThoughts = prompt("What are your thoughts on this page?");
+    if(userThoughts) {
+        alert("Thanks for sharing your thoughts: " + userThoughts);
+    } else {
+        alert("No thoughts shared. Hope you enjoyed the page!");
+    }
+</script>
 
 </body>
 </html>
