@@ -9,6 +9,7 @@
 
 <header>
     <h1>Student Corner</h1>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="study-tips.html">Study Tips</a>
@@ -29,7 +30,6 @@
 <h3>Contact</h3>
 
 <form>
-
 <label>Your Name</label><br>
 <input type="text"><br><br>
 
@@ -37,7 +37,6 @@
 <input type="email"><br><br>
 
 <button type="submit">Send</button>
-
 </form>
 
 </main>
@@ -45,6 +44,34 @@
 <footer>
 <p>Student Corner</p>
 </footer>
+
+<script>
+
+function askFeedback() {
+
+let feedback = prompt("How do you like this page? (Good / Okay / Needs improvement)");
+
+if (feedback === "Good") {
+    alert("Thank you! I'm glad you like the page.");
+}
+
+else if (feedback === "Okay") {
+    alert("Thanks! I will try to improve it.");
+}
+
+else if (feedback === "Needs improvement") {
+    alert("Thank you for the feedback! I will work on improving it.");
+}
+
+else {
+    alert("Thanks for visiting the Student Corner!");
+}
+
+}
+
+askFeedback();
+
+</script>
 
 </body>
 </html>
