@@ -1,11 +1,11 @@
-
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/* Body */
 body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
@@ -13,6 +13,7 @@ body {
     line-height: 1.6;
 }
 
+/* Header */
 header {
     background: #2c3e50;
     color: white;
@@ -21,7 +22,7 @@ header {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-
+/* Navigation */
 nav {
     margin-top: 10px;
 }
@@ -39,7 +40,7 @@ nav a:hover {
     color: #1abc9c;
 }
 
-
+/* Main content */
 main {
     padding: 30px;
     background: white;
@@ -49,14 +50,14 @@ main {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-
+/* Lists */
 ul {
     margin: 15px 0;
     line-height: 1.8;
     padding-left: 20px;
 }
 
-
+/* Blockquotes */
 blockquote {
     margin: 20px 0;
     font-style: italic;
@@ -66,7 +67,7 @@ blockquote {
     background: #f9f9f9;
 }
 
-
+/* Buttons */
 button, .btn {
     background: #2c3e50;
     color: white;
@@ -81,12 +82,30 @@ button:hover, .btn:hover {
     background: #1abc9c;
 }
 
-
+/* Footer */
 footer {
+    background: #2c3e50;
+    color: white;
     text-align: center;
-    padding: 15px 0;
-    background: #ddd;
+    padding: 20px 0;
     margin-top: 30px;
     font-size: 0.9em;
-    color: #333;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #16a085;
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 5px 0;
 }
